@@ -449,6 +449,10 @@ img.blob{
 
 /* css loader */
 
+.website__content{
+  overflow-x: hidden;
+}
+
 .website__content.hidden{
   display: none;
 }
@@ -806,6 +810,7 @@ label svg.moon{
 header{
   padding: 14rem 0 10rem;
   position: relative;
+  overflow-x: hidden;
 }
 
 header .section__title::before{
