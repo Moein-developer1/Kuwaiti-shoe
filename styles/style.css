@@ -425,6 +425,10 @@ img.blob{
 
 /* css loader */
 
+.website__content{
+  overflow-x: hidden;
+}
+
 .website__content.hidden{
   display: none;
 }
